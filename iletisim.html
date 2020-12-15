@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>İletişim</title>
   <link rel="stylesheet" href="./css/stil1.css">
 </head>
 
-<body>
+<body style="background-color: rgb(243, 243, 243);">
   <div class="topnav">
     <a href="anasayfa.html">Ana Sayfa</a>
     <div class="dropdown">
@@ -37,22 +37,26 @@
     </div>
   </div>
 
-  <h3 style="margin-left: 30px;">Bize Ulaşın</h3>
+  
 
-  <div class="container">
-    <form action="/action_page.php">
-      <label for="fname">Adınız</label>
-      <input type="text" id="fname" name="firstname" placeholder="Adınızı Giriniz..">
-
-      <label for="lname">Soyadınız</label>
-      <input type="text" id="lname" name="lastname" placeholder="Soyadınızı giriniz..">
-
-      <label for="subject">Yorum Kısmı</label>
-      <textarea id="subject" name="subject" placeholder="Bir şeyler yazın.." style="height:200px"></textarea>
-
-      <input type="button" onclick="window.location.href='anasayfa.html'" value="Gönder">
-    </form>
+  <div class="iletisim">
+    <h3 style="margin-left: 30px;">Bize Ulaşın</h3>
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">Adınız</label>
+        <input type="text" id="fname" name="firstname" placeholder="Adınızı Giriniz..">
+  
+        <label for="lname">Soyadınız</label>
+        <input type="text" id="lname" name="lastname" placeholder="Soyadınızı giriniz..">
+  
+        <label for="subject">Yorum Kısmı</label>
+        <textarea id="subject" name="subject" placeholder="Bir şeyler yazın.." style="height:200px"></textarea>
+  
+        <input type="submit" onclick="window.location.href='anasayfa.html'" value="Gönder">
+      </form>
+    </div>
   </div>
+  
 
 
 </body>

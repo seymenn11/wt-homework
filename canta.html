@@ -1,61 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Çanta Modelleri</title>
-    <link rel="stylesheet" href="./css/stil1.css">
-</head>
-<body style="background-color: #e9e9e9;">
-    
-    <div class="topnav">
-        <a href="anasayfa.html">Ana Sayfa</a>
-      <div class="dropdown">
-        <button class="dropbtn">Modeller 
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="ga.html">Günlük Ayakkabı</a>
-          <a href="bot.html">Bot & Çizme</a>
-          <a href="ta.html">Topuklu Ayakkabı</a>
-          <a href="sa.html">Spor Ayakkabı</a>
-        </div>
-      </div>
-        <a href="hakkimizda.html">Hakkımızda</a>
-        <a href="iletisim.html">İletişim</a>
-    
-        <div class="login-container">
-          <form action="anasayfa.html">
-            <input type="text" placeholder="Kullanıcı Adı" name="username" required>
-            <input type="password" placeholder="Parola" name="psw" required>
-            <button type="button" onclick="window.location.href='uyeol.html'">Üye Ol</button>
-            <button type="submit">Giriş</button>
-            
-          </form>
-        </div>
-      </div>
 
-      <center>
-        <h2>Çanta Modelleri</h2>
-      <div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Çanta Modelleri</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/stil1.css">
+
+</head>
+
+<body style="background-color: rgb(243, 243, 243);">
+
+  <div class="topnav">
+    <a href="anasayfa.html">Ana Sayfa</a>
+    <div class="dropdown position-static">
+      <button class="dropbtn active">Modeller
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="ga.html">Günlük Ayakkabı</a>
+        <a href="bot.html">Bot & Çizme</a>
+        <a href="ta.html">Topuklu Ayakkabı</a>
+        <a href="sa.html">Spor Ayakkabı</a>
+      </div>
+    </div>
+    <a href="hakkimizda.html">Hakkımızda</a>
+    <a href="iletisim.html">İletişim</a>
+
+    <div class="login-container">
+      <form action="anasayfa.html">
+        <input type="text" placeholder="Kullanıcı Adı" name="username" required>
+        <input type="password" placeholder="Parola" name="psw" required>
+        <button type="button" onclick="window.location.href='uyeol.html'">Üye Ol</button>
+        <button type="submit">Giriş</button>
+
+      </form>
+    </div>
+  </div>
+
+  <center>
+    <h2 class="pt-5 pb-3">Çanta Modelleri</h2>
+    <div class="resimler">
+      <div class="row">
+        <div class="col">
           <img class="resim" src="./resimler/canta7.jpg">
+        </div>
+        <div class="col">
           <img class="resim" src="./resimler/canta8.jpg">
+        </div>
+        <div class="col">
           <img class="resim" src="./resimler/canta9.jpg">
-     </div>
-         <br>
-      <div>
-        <img class="resim" src="./resimler/canta4.jpg">
-        <img class="resim" src="./resimler/canta5.jpg">
-        <img class="resim" src="./resimler/canta6.jpg">
-     </div>
-          <br>
-        <div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img class="resim" src="./resimler/canta4.jpg">
+        </div>
+        <div class="col">
+          <img class="resim" src="./resimler/canta5.jpg">
+        </div>
+        <div class="col">
+          <img class="resim" src="./resimler/canta6.jpg">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
           <img class="resim" src="./resimler/canta1.jpg">
+        </div>
+        <div class="col">
           <img class="resim" src="./resimler/canta2.jpg">
+        </div>
+        <div class="col">
           <img class="resim" src="./resimler/canta3.jpg">
-       </div>  
-      </center>
+        </div>
+      </div>
+    </div>
+
+  </center>
+
+
+  <div class="altbilgi">
+    <div class="row">
+      <div class="col">
+        <a href="anasayfa.html">
+          <h5>Ana Sayfa</h5>
+        </a>
+      </div>
+      <div class="col">
+        <h5>Modeller</h5>
+        <ul>
+          <li>
+            <a href="ga.html">Günlük Ayakkabı</a>
+          </li>
+          <li>
+            <a href="bot.html">Bot & Çizme</a>
+          </li>
+          <li>
+            <a href="ta.html">Topuklu Ayakkabı</a>
+          </li>
+          <li>
+            <a href="sa.html">Spor Ayakkabı</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col">
+        <a href="hakkimizda.html">
+          <h5>Hakkımızda</h5>
+        </a>
+      </div>
+      <div class="col">
+        <a href="iletisim.html">
+          <h5>İletişim</h5>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>

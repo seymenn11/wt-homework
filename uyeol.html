@@ -5,36 +5,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Üye Ol</title>
+  <link rel="stylesheet" href="./css/stil1.css">
   <link rel="stylesheet" href="./css/uyeolstil.css">
 </head>
 
-<body>
-  <!--ÜYE OL-->
-  <form action="anasayfa.html">
-    <div class="container">
-      <h1>Üye Ol</h1>
-      <p>Hesap oluşturmak için lütfen bu formu doldurun.</p>
-      <hr>
-
-      <label for="email"><b>E-posta</b></label>
-      <input type="text" placeholder="E-posta" name="email" required>
-
-      <label for="psw"><b>Şifre</b></label>
-      <input type="password" placeholder="Şifre" name="psw" required>
-
-
-
-
-
-      Hesap oluşturarak Şartlar ve Gizliliğimizi kabul etmiş olursunuz.</p>
-
-      <button type="submit" class="registerbtn">Üye Ol</button>
+<body style="background-color: rgb(243, 243, 243);">
+  <div class="topnav">
+    <a href="anasayfa.html">Ana Sayfa</a>
+    <div class="dropdown">
+      <button class="dropbtn">Modeller
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="ga.html">Günlük Ayakkabı</a>
+        <a href="bot.html">Bot & Çizme</a>
+        <a href="ta.html">Topuklu Ayakkabı</a>
+        <a href="sa.html">Spor Ayakkabı</a>
+      </div>
     </div>
+    <a href="hakkimizda.html">Hakkımızda</a>
+    <a href="iletisim.html">İletişim</a>
 
+    <div class="login-container">
+      <form action="anasayfa.html">
+        <input type="text" placeholder="Kullanıcı Adı" name="username" required>
+        <input type="password" placeholder="Parola" name="psw" required>
+        <button type="button" onclick="window.location.href='uyeol.html'">Üye Ol</button>
+        <button type="submit">Giriş</button>
+      </form>
+    </div>
+  </div>
 
-  </form>
+  
 
+  <div class="uyelik">
+    <div class="container">
+      <form action="anasayfa.html">
+        <div class="container">
+          <h1>Üye Ol</h1>
+          <p>Hesap oluşturmak için lütfen bu formu doldurun.</p>
+          <hr>
+    
+          <label for="email"><b>E-posta</b></label>
+          <input type="text" placeholder="E-posta" name="email" required>
+    
+          <label for="psw"><b>Şifre</b></label>
+          <input type="password" placeholder="Şifre" name="psw" required>
+          <p>Hesap oluşturarak Şartlar ve Gizliliğimizi kabul etmiş olursunuz.</p>
+          <button type="submit" class="registerbtn">Üye Ol</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  
 </body>
-
 </html>
