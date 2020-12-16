@@ -41,23 +41,25 @@
 
   <div class="uyelik">
     <div class="container">
-      <form action="anasayfa.html">
+      <form action="uyeol.html">
         <div class="container">
           <h1>Üye Ol</h1>
           <p>Hesap oluşturmak için lütfen bu formu doldurun.</p>
           <hr>
     
           <label for="email"><b>E-posta</b></label>
-          <input type="text" placeholder="E-posta" name="email" required>
+          <input type="text" id="mail" placeholder="E-posta" name="email" required>
     
           <label for="psw"><b>Şifre</b></label>
           <input type="password" placeholder="Şifre" name="psw" required>
           <p>Hesap oluşturarak Şartlar ve Gizliliğimizi kabul etmiş olursunuz.</p>
-          <button type="submit" class="registerbtn">Üye Ol</button>
+          <button type="submit" class="registerbtn" onclick="mailKontrol()">Üye Ol</button>
         </div>
       </form>
     </div>
   </div>
   
+
+  <script src="script.js"></script>
 </body>
 </html>
